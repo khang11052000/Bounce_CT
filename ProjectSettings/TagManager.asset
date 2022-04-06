@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Wall
+  - Enemy
+  - Ring
+  - Ball
+  - Item
   layers:
   - Default
   - TransparentFX
@@ -12,7 +16,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Ring
   - 
   - 
   - 
@@ -39,6 +43,27 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: wall
+    uniqueID: 390580491
+    locked: 0
+  - name: Left ring small E
+    uniqueID: 2814996517
+    locked: 0
+  - name: Left ring small G
+    uniqueID: 543746917
+    locked: 0
+  - name: Ball
+    uniqueID: 2886747431
+    locked: 0
+  - name: Right ring small E
+    uniqueID: 722231349
+    locked: 0
+  - name: Right ring small G
+    uniqueID: 2171726823
+    locked: 0
+  - name: enemy
+    uniqueID: 3045719293
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
